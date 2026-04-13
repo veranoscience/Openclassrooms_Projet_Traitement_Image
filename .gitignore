@@ -1,0 +1,30 @@
+# Environnement virtuel
+.venv/
+
+# Données (images et features volumineuses)
+data/raw/
+data/features/*.npy
+
+# Garder les CSVs de labels si souhaité (décommenter pour les ignorer aussi)
+# data/features/*.csv
+
+# Jupyter
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+
+# macOS
+.DS_Store
+
+# Claude Code
+.claude/
+
+# Variables d'environnement
+.env
+*.env
