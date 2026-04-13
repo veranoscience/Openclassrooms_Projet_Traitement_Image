@@ -16,10 +16,3 @@
 - On garde **séparé** : (A) labels experts vs (B) pseudo-labels.
 - On évite la fuite train/test : doublons exacts + quasi-doublons (group split).
 
-## Étape 1 — Import & exploration + contrôle qualité (doublons / quasi-doublons) + split anti-fuite
-
-**Objectif :**
-- Charger les chemins des images (avec labels et sans label)
-- Explorer rapidement le dataset (taille, mode couleur, exemples)
-- Détecter les doublons exacts (hash MD5) et les supprimer
-- Détecter des quasi-doublons (hash perceptuel dHash) et faire un split "groupé" pour limiter la fuite train/val/test
